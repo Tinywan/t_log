@@ -1,6 +1,4 @@
-# Example Package
-
-This is a simple log package. You can use
+这是一个简单的日志包
 
 安装
 ```
@@ -8,7 +6,7 @@ pip install t_log
 ```
 
 如何使用
-```
+```python
 #!/usr/bin/python3
 
 from t_log import logger
