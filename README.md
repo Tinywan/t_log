@@ -1,4 +1,9 @@
-这是一个简单的日志包
+这是一个简单的python日志包
+
+环境
+```
+python > 3.5
+```
 
 安装
 ```
@@ -37,6 +42,8 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 197: illegal 
 ```
 * 解决办法1：`FILE_OBJECT= open('order.log','r', encoding='UTF-8')`
 * 解决办法2：`FILE_OBJECT= open('order.log','rb')`
+
+#### 发布打包 
 
 使用twine上传分发包。 你需要安装Twine：
 ```
