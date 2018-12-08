@@ -6,7 +6,7 @@ with open("README.md", "r", encoding='UTF-8') as fh:
 
 setuptools.setup(
     name="t_log",
-    version="0.5",
+    version="0.51",
     author="Tinywan",
     author_email="756684177@qq.com",
     description="A small log package",
