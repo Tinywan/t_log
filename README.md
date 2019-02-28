@@ -133,6 +133,15 @@ pip search t_log
 pip install --upgrade pip
 ```
 
-可能遇到的错误
+## 在 feature 分支开发了一半的时候，我们意识到项目中有一个安全漏洞:
 
-使用Docker+Jenkins自动构建部署
+```
+# 基于master分支创建一个快速修复分支
+git checkout -b hotfix master
+# 编辑文件
+git commit -a -m "Fix security hole"
+# 合并回master
+git checkout master
+git merge hotfix
+git branch -d hotfix
+```
